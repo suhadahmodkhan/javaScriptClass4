@@ -61,10 +61,6 @@ var friends6 = 10 ;
 // }
 
 
-// while (condition){
-// statement
-// increement, decreement
-// }
 var marks = [41 , 63 , 23 , 76 , 54]
 var i = 0 ;
 while ( i <= marks.length - 1){
@@ -77,8 +73,9 @@ while ( i <= marks.length - 1){
         console.log(" index of i = " , i ," result =  A")
     }
     else if(60 < marks[i]){
-        
+continue
         console.log(" index of i = " , i ," result =  A-")
+        
     }
     else if(50 < marks[i]){
         

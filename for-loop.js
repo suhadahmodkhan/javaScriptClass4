@@ -18,7 +18,7 @@ for (var i = 0 ; i <= marks.length - 1 ; i++){
         console.log(" index of i = " , i ," result =  A")
     }
     else if(60 < marks[i]){
-        
+        continue;
         console.log(" index of i = " , i ," result =  A-")
     }
     else if(50 < marks[i]){
